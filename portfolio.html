@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himakar Port Folio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@1,700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Himakar PortFolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#port">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="Firstsection">
+            <div class="Leftsection">
+                Hi, My name is <span class="violet">Himakar</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                <button class="btn1" id="viewResumeButton">View Resume</button>
+                </div>
+            </div>
+            <div class="Rightsection">
+                <img src="https://static.vecteezy.com/system/resources/previews/011/153/360/original/3d-web-developer-working-on-project-illustration-png.png" alt="WebDeveloper Image">
+            </div>
+        </section>
+<hr>
+        <section class="Secondsection" id="about">
+            <h1>About</h1>
+                <img src="My.jpg" alt="My Image">
+            <div class="myself">
+                My name is Himakar.Iam a Passionate in learning new things and I am a highly motivated and creative Frontend Web Developer with a strong passion for creating visually appealing and user-friendly websites. I hold a Bachelor's degree in B.Tech from Siddharth Institute of Engineering and Technology, Puttur. I am enthusiastic about turning innovative ideas into reality through coding and design.
+
+        My experience includes working as a Web Developer Intern at MotionCut, where I have had the opportunity to collaborate on various web development projects, further honing my skills in HTML, CSS, and JavaScript. I have a keen eye for detail and a commitment to delivering high-quality web solutions.In addition to my professional experience, I have completed a project using the Tkinter framework in Python, showcasing my ability to develop desktop applications. I have also created a personal portfolio website using HTML, CSS, and JavaScript, demonstrating my proficiency in frontend development.I am always eager to learn and stay up-to-date with the latest web technologies and trends. My goal is to contribute my expertise and creativity to a dynamic team, bringing innovative web solutions to life and enhancing user experiences.When I'm not coding, you can find me exploring new web design trends, participating in hackathons, or working on personal coding projects. I am a dedicated and passionate individual who is excited about the future of web development and the limitless possibilities it offers. Feel free to contact me at to discuss potential opportunities or collaborations. I am ready to bring my skills and enthusiasm to contribute to exciting web development projects.
+            </div>
+        </section>
+<hr>
+        <section class="Skills">
+            <h1>Skills</h1>
+            <div class="TechSkill">
+                <div class="html"><img src="html.png" alt="Html Image"></div>
+                <div class="css"><img src="css.png" alt="Css Image"></div>
+                <div class="Javascript"><img src="js.png" alt="Javascript Image"></div>
+                <div class="python"><img src="python.png" alt="Python Image"></div>
+                <div class="java"><img src="java.png" alt="java Image"></div>
+            </div>
+        </section>
+<hr>
+        <section class="Portfolio" id="port">
+            <h1>Portfolio</h1>
+                <h3>Python Projects</h3>
+                <div class="cont">
+                    <li><a href="calc.py">GUI Calculator using Tkinter</a></li>
+                <img src="calc.png" alt="Calculator img" >
+                <li><a href="note.py">NotePad Using Tkinter</a></li>
+                <img src="note.png" alt="">
+                <li><a href="assis.py">Personal Desktop Assistant</a></li>
+                <img src="assistant.png" alt="">
+                </div>
+                <br><br>
+                <h3>Web Projects</h3>
+                <div class="cont2">
+                    <h4 style="margin-left: 310px;">HarryPotter Page</h4>
+                    <iframe src="HarryPotter.html" width="1100px" height="720px" style="margin: auto; margin-bottom: 20px;"></iframe>
+                </div>
+                <div class="cont3">
+                    
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Himakar's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Contact Me:</li>
+                    <li><a href="www.linkedin.com/in/p-himakar-944b87258" style="text-decoration: none;">LinkedIn</a></li>
+                    <li><a href="https://github.com/HimaShin" style="text-decoration: none;">Git Hub</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights" id="contact">
+           copyrights &#169; Himakar's Portfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer','Python Developer',"frontend developer"],
+          typeSpeed: 50,
+        });
+      </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#viewResumeButton").click(function(){
+        window.open('My_Resume.pdf', '_blank');
+    });
+});
+</script>
+
+</body>
+</html>
